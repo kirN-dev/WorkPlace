@@ -1,0 +1,22 @@
+{
+  "LatestVersion": "2.0",
+  "Migrations": [
+    {
+      "Version": "2.0",
+      "Steps": [
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev//WorkPlace/master/File3.txt",
+          "Target": "File3.txt",
+          "Sha256": "28bbea2e387405135543cb5e359a087f8fcad1a1433b1aa9bf984cac5dfad203"
+        },
+        {
+          "Action": "delete",
+          "Source": null,
+          "Target": "File1.txt",
+          "Sha256": null
+        }
+      ]
+    }
+  ]
+}
